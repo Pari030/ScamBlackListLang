@@ -1,37 +1,36 @@
 {
+   "authors": [
+      "iim_rudy"
+   ],
 
-"authors": ["iim_rudy"]
+   "buttons": {
 
-"buttons": {
-    "back": "🔙 Indietro"
+      "back":"🔙 Indietro",
 
-    "start": {
-        "channel": "📢 Canale",
-        "group": "👥 Gruppo",
-        "supporters": "👮🏼‍♀️ supporters 👮🏼‍♀️",
-        "tutorial": "🔰 Guida 🔰"
-    },
+      "start": {
 
-    "tutorial": {
-        "faq": "⁉️ FAQ ⁉️",
-        "commands": "📓 Comandi 📓",
-        "other_info": "⚜️ Più informazioni ⚜️"
-    }
+         "channel":"📢 Canale",
+         "group":"👥 Gruppo",
+         "supporters":"👮🏼‍♀️ supporters 👮🏼‍♀️",
+         "tutorial":"🔰 Guida 🔰"
+         
+      },
 
-},
+      "tutorial": {
 
-"messages": {
-    "start": "Benvenuto [PERMALINK]\nQuesto è il bot ufficiale di @ScamBlackListChannel.\n<b>❓ A cosa servo ❓</b>\nServo a bannare automaticamente i truffatori da un gruppo, per capire come, clicca "Guida"!",
-    
-    "tutorial": "<b>Guida all'uso</b>\n\n<b>Come utilizzarmi?</b>\n<i>Devi semplicemente aggiungermi al tuo gruppo, rendermi amministratore ed eseguire /done (nel gruppo).</i>\n\n<b>Cosa faccio esattamente?</b>\n<i>Banno tutti i truffatori segnalati da @ScamBlackListChannel dai gruppi in cui sono admin.</i>\n\n<b>Come posso segnalare uno scammer o un doxer?</b>\n<i>Basta scrivere ad una delle persone in</i> <a href='https://t.me/ScamBlackListChannel/34'> questa lista.</a>\n\n<b>Se non hai capito digita /tutorial per vedere un esempio pratico.</b>"
-    
-    "faq": "<b>❓ FAQ</b>\n\n<b>Quando aggiungo il bot al mio gruppo vengono bannati proprio tutti i truffatori?</b>\n<i>La risposta è si, tutti quelli già segnalati e che verranno segnalati. In caso il truffatore non sia mai entrato nel gruppo e il bot non sia risucito a bannarlo, quando entra verrà bannato in automatico.</i>\n\n<b>Se tolgo il bot i truffatori rimarranno bannati?</b>\n<i>Si, rimarranno comunque bannati dal gruppo, ma non quelli segnalati in seguito.</i>",
-    
-    "commands": "<b>Comandi disponibili</b>\n\n<b>/tutorial »</b> <i>Semplice spiegazione di come usare il bot.</i>\n\n<b>/status »</b>  <i>Controlla le statistiche del bot, controllando numero di bannati e numero di gruppi in cui è contenuto il bot.</i>\n\n<b>/check [ID] »</b>  <i>Controlla che quell\'id sia presente nei nostri database. (In alternativa si può inoltrare un messaggio della persona da controllare).</i>\n\n<b>/pref »</b>  <i>Da eseguire in un gruppo, sceglie la procedura da effettuare quando un utente viene bannato.</i>\n\n<b>/supporto »</b>  <i>Da eseguire in un gruppo, invia una richiesta di supporto agli amminitratori si SBL.</i>",
-    
-    "other_info": "<b>ℹ️ Informazioni</b>\n\nQuesto bot è nato il giorno 21 dicembre 2019 ed è stato programmato completamente in PHP <b>7.4.3</b> da <a href='tg://user?id=834570041'>Pari</a> e <a href='tg://user?id=541555995'>Rudy</a>.\n\nVersione attuale: <b>[VERSION]</b>\n\n<b>Ringraziamo</b> tutti gli utenti che ogni giorno ci <b>segnalano</b> nuovi truffatori.",
+         "faq":"⁉️ FAQ ⁉️",
+         "commands":"📓 Comandi 📓",
+         "other_info":"⚜️ Più informazioni ⚜️"
 
-}
+      }
+   },
 
+   "messages": {
 
+      "start":"Benvenuto [PERMALINK]\nQuesto è il bot ufficiale di @ScamBlackListChannel.\n<b>❓ A cosa servo ❓</b>\nServo a bannare automaticamente i truffatori da un gruppo, per capire come, clicca ""Guida""!",
+      "tutorial":"<b>Guida all'uso</b>\n\n<b>Come utilizzarmi?</b>\n<i>Devi semplicemente aggiungermi al tuo gruppo, rendermi amministratore ed eseguire /done (nel gruppo).</i>\n\n<b>Cosa faccio esattamente?</b>\n<i>Banno tutti i truffatori segnalati da @ScamBlackListChannel dai gruppi in cui sono admin.</i>\n\n<b>Come posso segnalare uno scammer o un doxer?</b>\n<i>Basta scrivere ad una delle persone in</i> <a href='https://t.me/ScamBlackListChannel/34'> questa lista.</a>\n\n<b>Se non hai capito digita /tutorial per vedere un esempio pratico.</b>""faq":"<b>❓ FAQ</b>\n\n<b>Quando aggiungo il bot al mio gruppo vengono bannati proprio tutti i truffatori?</b>\n<i>La risposta è si, tutti quelli già segnalati e che verranno segnalati. In caso il truffatore non sia mai entrato nel gruppo e il bot non sia risucito a bannarlo, quando entra verrà bannato in automatico.</i>\n\n<b>Se tolgo il bot i truffatori rimarranno bannati?</b>\n<i>Si, rimarranno comunque bannati dal gruppo, ma non quelli segnalati in seguito.</i>",
+      "commands":"<b>Comandi disponibili</b>\n\n<b>/tutorial »</b> <i>Semplice spiegazione di come usare il bot.</i>\n\n<b>/status »</b>  <i>Controlla le statistiche del bot, controllando numero di bannati e numero di gruppi in cui è contenuto il bot.</i>\n\n<b>/check [ID] »</b>  <i>Controlla che quell\\'id sia presente nei nostri database. (In alternativa si può inoltrare un messaggio della persona da controllare).</i>\n\n<b>/pref »</b>  <i>Da eseguire in un gruppo, sceglie la procedura da effettuare quando un utente viene bannato.</i>\n\n<b>/supporto »</b>  <i>Da eseguire in un gruppo, invia una richiesta di supporto agli amminitratori si SBL.</i>",
+      "other_info":"<b>ℹ️ Informazioni</b>\n\nQuesto bot è nato il giorno 21 dicembre 2019 ed è stato programmato completamente in PHP <b>7.4.3</b> da <a href='tg://user?id=834570041'>Pari</a> e <a href='tg://user?id=541555995'>Rudy</a>.\n\nVersione attuale: <b>[VERSION]</b>\n\n<b>Ringraziamo</b> tutti gli utenti che ogni giorno ci <b>segnalano</b> nuovi truffatori."
+   
+   }
 }
